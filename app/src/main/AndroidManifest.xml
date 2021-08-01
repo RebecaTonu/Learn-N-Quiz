@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learnnquiz">
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Conturi.Login"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+<<<<<<< HEAD
+            android:name=".activitati.Sectiuni"
+=======
+            android:name=".Activitati.Sectiuni"
+>>>>>>> 2c82b41... LNQ
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme">
+        </activity>
+        <activity
+<<<<<<< HEAD
+            android:name=".activitati.Testare"
+=======
+            android:name=".Activitati.Testare"
+>>>>>>> 2c82b41... LNQ
+            android:screenOrientation="portrait"
+            android:theme="@style/NoBarTheme">
+        </activity>
+        <activity
+<<<<<<< HEAD
+            android:name=".activitati.Profil"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".activitati.Acasa"
+=======
+            android:name=".Activitati.Profil"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Activitati.Acasa"
+>>>>>>> 2c82b41... LNQ
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Conturi.Inregistrare"
+            android:screenOrientation="portrait">
+        </activity>
+        <provider
+            android:authorities="com.example.learnnquiz.Profesor"
+            android:name="com.example.learnnquiz.Profesor.ClasaContinutProv"
+            android:exported="true"
+            android:enabled="true">
+        </provider>
+        <activity
+            android:name=".Profesor.MainProfesor"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Profesor.LoginProf"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Profesor.RegProf"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+
+</manifest>

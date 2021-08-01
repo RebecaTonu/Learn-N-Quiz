@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    android:background="@color/colorBackground"
+    android:paddingTop="15dp">
+
+    <TextView
+        android:id="@+id/titlu_curs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+<<<<<<< HEAD
+        android:fontFamily="casual"
+        android:text="Internet"
+=======
+        android:fontFamily="sans-serif-condensed"
+        android:text="Europa"
+>>>>>>> 2c82b41... LNQ
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <android.support.v17.leanback.widget.HorizontalGridView
+        android:id="@+id/gridlectie"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/titlu_curs"
+        android:layout_marginTop="10dp"
+
+        android:paddingLeft="15dp"/>
+
+
+</RelativeLayout>

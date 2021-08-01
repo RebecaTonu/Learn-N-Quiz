@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+<<<<<<< HEAD
+    tools:context=".activitati.Profil">
+=======
+    tools:context=".Activitati.Profil">
+>>>>>>> 2c82b41... LNQ
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:layout_marginBottom="-117dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@id/doughnuttot"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/niveltextview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+<<<<<<< HEAD
+                        android:fontFamily="casual"
+                        android:text="Beginner"
+=======
+                        android:fontFamily="monospace"
+                        android:text="Începător"
+>>>>>>> 2c82b41... LNQ
+                        android:textAlignment="center"
+                        android:textColor="@color/neutral"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/progtextview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+<<<<<<< HEAD
+                        android:fontFamily="casual"
+=======
+                        android:fontFamily="monospace"
+>>>>>>> 2c82b41... LNQ
+                        android:text="55/100"
+                        android:textAlignment="center"
+                        android:textColor="@color/neutral"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+<<<<<<< HEAD
+                <com.example.learnnquiz.layout.FitDoughnut
+=======
+                <com.example.learnnquiz.Layout.FitDoughnut
+>>>>>>> 2c82b41... LNQ
+                    android:id="@+id/doughnuttot"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    app:fdColorPrimary="@color/colorAccent" />
+
+                <TextView
+                    android:id="@+id/proctextview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/doughnuttot"
+                    android:layout_alignTop="@+id/doughnuttot"
+                    android:layout_alignRight="@+id/doughnuttot"
+                    android:layout_alignBottom="@+id/doughnuttot"
+<<<<<<< HEAD
+                    android:fontFamily="casual"
+=======
+                    android:fontFamily="monospace"
+>>>>>>> 2c82b41... LNQ
+                    android:gravity="center"
+                    android:text="75%"
+                    android:textAlignment="center"
+                    android:textColor="@color/neutral"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/texttextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="-5dp"
+<<<<<<< HEAD
+                android:fontFamily="casual"
+=======
+                android:fontFamily="monospace"
+>>>>>>> 2c82b41... LNQ
+                android:text="Cursuri"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+<<<<<<< HEAD
+            <com.example.learnnquiz.layout.ExpGridView
+=======
+            <com.example.learnnquiz.Layout.ExpGridView
+>>>>>>> 2c82b41... LNQ
+                android:id="@+id/gridCursprog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="2" />
+
+    
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="@color/colorBackground"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:itemIconTint="@color/colorAccent"
+        app:itemTextColor="@color/colorAccent"
+        app:menu="@menu/nav"/>
+
+
+</RelativeLayout>

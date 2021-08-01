@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+<<<<<<< HEAD
+        android:id="@+id/UpdateClass"
+=======
+        android:id="@+id/ModifClasa"
+>>>>>>> 2c82b41... LNQ
+        android:title="@string/modifClasa"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="1"/>
+    <item
+<<<<<<< HEAD
+        android:id="@+id/DeleteClass"
+=======
+        android:id="@+id/StergeClasa"
+>>>>>>> 2c82b41... LNQ
+        android:title="@string/stergecls"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="2"/>
+    <item
+<<<<<<< HEAD
+        android:id="@+id/AddContent"
+=======
+        android:id="@+id/AdaugaContinut"
+>>>>>>> 2c82b41... LNQ
+        android:title="@string/AdaugaContinut"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="3"></item>
+    <group>
+        <item
+<<<<<<< HEAD
+            android:id="@+id/AddStudent"
+=======
+            android:id="@+id/AdaugaParticipant"
+>>>>>>> 2c82b41... LNQ
+            android:title="@string/menuAdaugaparticipant"
+            app:showAsAction="ifRoom"
+            android:orderInCategory="4"></item>
+        <item
+<<<<<<< HEAD
+            android:id="@+id/NotifyAllStudents"
+=======
+            android:id="@+id/TrimiteEmail"
+>>>>>>> 2c82b41... LNQ
+            android:title="@string/trimitemail"
+            app:showAsAction="ifRoom"
+            android:orderInCategory="5"></item>
+    </group>
+</menu>

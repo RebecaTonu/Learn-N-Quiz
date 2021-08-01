@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Learn N Quiz</string>
+    <string name="title_activity_home">Learn N Quiz</string>
+    <string name="title_acasa">Acasă</string>
+    <string name="title_profil">Profil</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Introduceți numele</string>
+    <string name="error_message_email">Introduceți email</string>
+    <string name="error_message_password">Introduceți parola</string>
+    <string name="success_message">Înregistrare reușită</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Contul deja există</string>
+    <string name="error_password_match">Parola nu se potrivește</string>
+    <string name="error_valid_email_password">Email sau parola greșită</string>
+<<<<<<< HEAD
+    <string name="text_member">Already a member? Login</string>
+    <string name="text_not_teacher">No account yet? Create one</string>
+    <string name="menu_loginadm">Login As Teacher</string>"
+    <string name="menu_registeradm">Register As Teacher</string>"
+    <string name="menu_logout">Log out</string>
+//prof
+  <string name="hello_world">Hello world!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_settings">Settings</string>
+=======
+    <string name="text_member">Already a member? Log in</string>
+    <string name="text_teacher">Already a member? Log in as a teacher</string>
+    <string name="text_not_teacher">No account yet? Create one</string>
+    <string name="menu_loginadm">Log in as Teacher</string>"
+    <string name="menu_registeradm">Register as Teacher</string>"
+    <string name="menu_logout">Log out</string>
+//prof
+  <string name="ceva">ceva!</string>
+    <string name="ceva2">ceva2</string>
+
+>>>>>>> 2c82b41... LNQ
+
+    <string name="luni">Luni</string>
+    <string name="marti">Marți</string>
+    <string name="miercuri">Miercuri</string>
+    <string name="joi">Joi</string>
+    <string name="vineri">Vineri</string>
+    <string name="sambata">Sâmbătă</string>
+    <string name="duminica">Duminică</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="adauga_clasa">Adaugă Clasa</string>
+    <string name="stergecls">Șterge Clasa</string>
+    <string name="modifClasa">Modifică Clasa</string>
+
+
+    <string name="nouClasa">Clasă Nouă</string>
+    <string name="nouClasaContinut">Date noi</string>
+    <string name="modifClasaClontinut">Modifică Conținutul Clasei</string>
+    <string name="nouParticipant">Participant Nou</string>
+    <string name="nouTitlu">Titlu</string>
+    <string name="nouDif">Dificultate</string>
+    <string name="nouZile">Zile</string>
+    <string name="nouInceput">Început</string>
+    <string name="nouSfarsit">Sfârșit</string>
+    <string name="nouPrecizari">Precizări</string>
+    <string name="nouMetoda">Metodă</string>
+    <string name="nouClasaBtn">Creează</string>
+    <string name="notAllFieldsFilledOutWarning">Toate câmpurile în afară de precizări și metodă sunt obligatorii! </string>
+    <string name="clasamodif">Clasa modificată</string>
+
+    <string name="clasaFrag_participantBtn">Participanți</string>
+    <string name="menuAdaugaparticipant">Adaugă Participant</string>
+    <string name="adaugaParticipant">Adaugă Participant</string>
+    <string name="modifdataparticipant">Modifică</string>
+    <string name="stergeparticipant">Șterge</string>
+
+    <string name="AdaugaContinut">Adaugă Conținut</string>
+<<<<<<< HEAD
+    <string name="trimitemail">Trimite email</string>
+=======
+    <string name="trimitemail">Trimite e-mail</string>
+>>>>>>> 2c82b41... LNQ
+
+    <string name="nouData">Dată</string>
+    <string name="nouMaterie">Materie</string>
+    <string name="nouDificultate">Dificultate</string>
+    <string name="nouPrec">Precizări</string>
+    <string name="adaugacontinutclasa">Adaugă</string>
+    <string name="DataNotFilledOutWarning">Selectați o dată! </string>
+    <string name="continutAdaugatAlert">Conținut nou adăugat</string>
+    <string name="continutStersAlert">Conținut șters</string>
+    <string name="continutModificatAlert">Conținut modificat</string>
+    <string name="continutTitlu">Date</string>
+
+    <string name="modifContinut">Modifică</string>
+   <string name="stergecontinut">Șterge</string>
+
+    <string name="participantnouNume">Nume</string>
+    <string name="participantnouEmail">Email</string>
+    <string name="partiAdaugatAlert">Participant nou adăugat</string>
+    <string name="participantModifAlert">Participant modificat</string>
+    <string name="participantstersAlert">Participant șters</string>
+    <string name="participantTitlu">Participanți</string>
+    <string name="modifParticipant">Modifică Participant</string>
+
+
+    <string-array name="zile">
+        <item>Luni</item>
+<<<<<<< HEAD
+        <item>Marti</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sambata</item>
+        <item>Duminica</item>
+=======
+        <item>Marți</item>
+        <item>Miercuri</item>
+        <item>Joi</item>
+        <item>Vineri</item>
+        <item>Sâmbătă</item>
+        <item>Duminică</item>
+>>>>>>> 2c82b41... LNQ
+    </string-array>
+
+    <string-array name="dificultate">
+        <item>Usor</item>
+        <item>Mediu</item>
+        <item>Spicy</item>
+
+    </string-array>
+
+    <string-array name="status">
+        <item>Începator</item>
+<<<<<<< HEAD
+        <item>Avansat</item>
+        <item>Expert</item>
+=======
+        <item>Amator</item>
+        <item>Expert</item>
+        <item>Profesionist</item>
+>>>>>>> 2c82b41... LNQ
+    </string-array>
+
+
+
+</resources>
+
+

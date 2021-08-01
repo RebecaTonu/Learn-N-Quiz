@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profesor.MainProfesor$PlaceholderFragment"
+    android:background="#e2e2e2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/luni"
+                style="@style/BabyBlueWeekday"
+                android:layout_marginBottom="5dp">
+
+                <TextView android:text="@string/luni" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/mondayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/marti"
+                style="@style/WhiteWeekday">
+
+                <TextView android:text="@string/marti" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/tuesdayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/miercuri"
+                style="@style/BabyBlueWeekday">
+
+                <TextView android:text="@string/miercuri" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/wednesdayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/joi"
+                style="@style/WhiteWeekday">
+
+                <TextView android:text="@string/joi" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    android:id="@+id/thursdayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/vineri"
+                style="@style/BabyBlueWeekday">
+
+                <TextView android:text="@string/vineri" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/fridayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/sambata"
+                style="@style/WhiteWeekday">
+
+                <TextView android:text="@string/sambata" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/saturdayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:id="@+id/duminica"
+                style="@style/BabyBlueWeekday">
+
+                <TextView android:text="@string/duminica" style="@style/Header" android:layout_marginTop="5dp" android:layout_marginLeft="5dp" android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+                <org.lucasr.twowayview.TwoWayView
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/sundayListView"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:drawSelectorOnTop="false"
+                    tools:context=".MainActivity" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

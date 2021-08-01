@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dayListItem"
+    android:layout_width="wrap_content" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="110dp"
+    android:layout_height="100dp"
+    android:background="@drawable/drr2"
+    android:gravity="center_horizontal"
+    android:padding="5dp"
+    android:orientation="vertical"
+    >
+    <TextView android:id="@+id/clasatitlu"
+        android:textColor="@color/background"
+<<<<<<< HEAD
+        android:text="@string/hello_world" style="@style/content"/>
+    <TextView android:id="@+id/clasaInceput"
+        android:textColor="@color/background"
+        android:text="@string/hello_world" style="@style/content"/>
+=======
+        android:text="@string/ceva" style="@style/content"/>
+    <TextView android:id="@+id/clasaInceput"
+        android:textColor="@color/background"
+        android:text="@string/ceva" style="@style/content"/>
+>>>>>>> 2c82b41... LNQ
+    <TextView  android:text="-" style="@style/content"/>
+
+    <TextView android:id="@+id/clasaSfarsit"
+        android:textColor="@color/background"
+<<<<<<< HEAD
+        android:text="@string/hello_world" style="@style/content"/>
+=======
+        android:text="@string/ceva" style="@style/content"/>
+>>>>>>> 2c82b41... LNQ
+</LinearLayout>
+
+</LinearLayout>

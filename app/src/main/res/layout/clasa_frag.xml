@@ -1,0 +1,272 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e2e2e2"
+
+    tools:context=".Profesor.ClasaFrag">
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+
+       <LinearLayout
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginBottom="5dp"
+           android:orientation="horizontal">
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/clasafrag_titlu"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="5dp"
+                android:text="Conținut aici"
+                style="@style/h1"
+                android:layout_weight="1"/>
+
+       </LinearLayout>
+
+   </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd">
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouZile"
+                    />
+
+                <TextView
+                    style="@style/content"
+                    android:text="@string/nouZile"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_zile"
+                    android:layout_weight="1"
+                    />
+
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd"
+                >
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouInceput"
+                    />
+
+                <TextView
+                    style="@style/content"
+                    android:text="@string/nouInceput"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_ora"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd">
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouSfarsit"
+
+                    />
+
+                <TextView
+                    style="@style/content"
+                    android:text="@string/nouSfarsit"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_durata"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd">
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouMetoda"
+                    />
+
+                <TextView
+                    android:text="@string/nouMetoda"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_metoda"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd">
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouDif"
+                    />
+
+                <TextView
+                    style="@style/content"
+                    android:text="@string/nouDif"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_dificultate"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_marginBottom="10dp"
+                android:padding="5dp"
+                android:background="#b4cdcd">
+
+                <TextView
+                    style="@style/title"
+                    android:layout_marginRight="10dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouPrecizari"
+                    />
+
+                <TextView
+                    style="@style/content"
+                    android:text="@string/nouPrecizari"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/clasafrag_precizari"
+                    android:layout_weight="1"
+                    />
+
+
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:background="@color/line"
+                    android:layout_span="2"/>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_span="2"
+                    android:layout_marginBottom="10dp">
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp">
+
+                        <TextView
+                            style="@style/Header"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="left|center_vertical"
+                            android:text="@string/participantTitlu"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <ImageView
+                            android:layout_width="123dp"
+                            android:layout_height="8dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/arrows2" />
+                    </FrameLayout>
+
+                    <org.lucasr.twowayview.TwoWayView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/participantListView"
+                        style="@style/TwoWayView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="false"/>
+                </LinearLayout>
+            </TableRow>
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dip"
+                    android:background="@color/line"
+                    android:layout_span="2"/>
+            </TableRow>
+
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="10dp"
+                    android:layout_span="2">
+                <FrameLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp">
+
+                        <TextView
+                            style="@style/Header"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="@string/continutTitlu"
+                            android:layout_gravity="left|center_vertical"/>
+
+                        <ImageView
+                            android:layout_width="140dp"
+                            android:layout_height="15dp"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_gravity="right|center_vertical"
+                            android:src="@drawable/arrows2"/>
+                    </FrameLayout>
+
+                    <org.lucasr.twowayview.TwoWayView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:tools="http://schemas.android.com/tools"
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/clasaContinutListView"
+                        style="@style/TwoWayView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawSelectorOnTop="false"/>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+
+
+        </ScrollView>
+</LinearLayout>

@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#E2E2E2"
+    tools:context=".Profesor.ClasaNouaFrag">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="@style/h1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nouClasa"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouTitlu"
+                    />
+
+                <EditText
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nouClasaTitlu"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent" />
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouZile"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/nouClasaZile"
+                        android:text="@string/nouZile"
+                        android:textColor="@color/background"
+                        android:background="@drawable/button2" />
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouInceput"
+                    />
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="32dp"
+                        android:text="00:00"
+                        android:textColor="@color/background"
+                        android:id="@+id/nouClasaInceput"
+                        android:background="@drawable/button2"
+                        />
+                </RelativeLayout>
+
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouSfarsit"/>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp">
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="32dp"
+                        android:text="00:00"
+                        android:textColor="@color/background"
+                        android:id="@+id/nouClasaSfarsit"
+
+                        android:background="@drawable/button2"/>
+                </RelativeLayout>
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouMetoda"
+                    />
+
+                <AutoCompleteTextView
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/nouClasaMetoda"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent" />
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouDificultate"
+                    />
+
+                <Spinner
+                    android:id="@+id/nouClasaDificultate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/nouPrecizari"
+                    />
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:ems="10"
+                    android:gravity="left|top"
+                    android:id="@+id/nouClasaPrecizari"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent" />
+
+
+            </TableRow>
+            <TableRow android:gravity="center_horizontal" android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/creeazaClasaBtn"
+                    android:layout_width="100dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/button2"
+                    android:textColor="@color/background"
+                    android:text="@string/nouClasaBtn"
+                    />
+            </TableRow>
+        </TableLayout>
+</ScrollView>
+</LinearLayout>

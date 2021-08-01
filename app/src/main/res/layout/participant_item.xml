@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="165dp"
+    android:layout_height="160dp"
+    android:paddingLeft="5dp"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:background="@drawable/drr"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/titleInListItem"
+            android:text="@string/participantnouNume"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/background" />
+
+        <TextView
+            android:id="@+id/participantListItem_nume"
+            style="@style/content"
+            android:text="Participant Nume"
+            android:textColor="@color/background" />
+
+        <TextView
+            style="@style/titleInListItem"
+            android:text="@string/participantnouEmail"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/background" />
+
+        <TextView
+            android:id="@+id/participantListItem_email"
+            style="@style/content"
+            android:text="Email"
+            android:textColor="@color/background"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

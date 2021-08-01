@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#e2e2e2"
+    tools:context=".Profesor.ParticipantNouFrag">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        style="@style/h1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/nouParticipant"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal|top">
+
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/participantnouNume"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nouParticipantNume"
+                    android:layout_weight="1"/>
+            </TableRow>
+            <TableRow android:layout_margin="5dp">
+
+                <TextView
+                    style="@style/Header"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/participantnouEmail"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nouParticipantEmail"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal">
+
+                <Button
+                    android:id="@+id/nouParticipantAdaugaParticipant"
+                    android:layout_width="186dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/button2"
+                    android:textColor="@color/background"
+                    android:text="@string/adaugaParticipant" />
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

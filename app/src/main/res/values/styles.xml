@@ -1,0 +1,103 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">#D4B895</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="NoBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+<<<<<<< HEAD
+<style name="WeekListStyle">
+=======
+<style name="Saptamana">
+>>>>>>> 2c82b41... LNQ
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:clickable">true</item>
+    </style>
+<<<<<<< HEAD
+    <style name="WhiteWeekday" parent="WeekListStyle">
+
+    </style>
+    <style name="BabyBlueWeekday" parent="WeekListStyle">
+=======
+    <style name="WhiteWeekday" parent="Saptamana">
+
+    </style>
+    <style name="BabyBlueWeekday" parent="Saptamana">
+>>>>>>> 2c82b41... LNQ
+
+    </style>
+    <style name="h1">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+<<<<<<< HEAD
+        <item name="android:textColor">@color/header</item>
+=======
+        <item name="android:textColor">#E49A05</item>
+>>>>>>> 2c82b41... LNQ
+    </style>
+
+    <style name="Header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/primary_dark_material_dark</item>
+    </style>
+    <style name="titleInListItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textBgr</item>
+    </style>
+
+    <style name="title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+
+    <style name="clickable">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/lightBlue</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+<<<<<<< HEAD
+    <style name="AddClassBtn">
+=======
+    <style name="AdaugaClasaBtn">
+>>>>>>> 2c82b41... LNQ
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+<<<<<<< HEAD
+    <style name="AddClass">
+=======
+    <style name="AdaugaClasa">
+>>>>>>> 2c82b41... LNQ
+
+
+    </style>
+</resources>
